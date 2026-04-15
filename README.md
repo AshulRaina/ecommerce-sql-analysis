@@ -1,34 +1,47 @@
-# ecommerce-sql-analysis
-SQL project analyzing e-commerce sales data using MySQL
-# E-commerce Sales Analysis (SQL Project)
+E-Commerce Sales Analysis using SQL
+Project Overview:
+This project analyzes an e-commerce dataset using SQL to uncover insights related to customer behavior, sales performance, and product trends.
+It simulates a real-world scenario where data is used to support business decision-making.
 
-## 📌 Overview
-This project demonstrates SQL skills by analyzing an e-commerce database using MySQL.
+*Business Problem
 
-## 🧩 Database Structure
-- Customers
-- Products
-- Orders
-- Order Details
+-- E-commerce platforms generate large amounts of transactional data, but without analysis, it is difficult to identify:
+Top customers and revenue contributors
+Best-performing products
+Sales trends over time
 
-## 📊 Key Analysis Performed
-- Total revenue calculation
-- Top spending customers
-- Second highest spender
-- Product sales analysis
-- Customers with no orders
+*This project solves these problems using SQL.
 
-## 🛠️ SQL Concepts Used
-- Joins (INNER, LEFT)
-- Aggregations (SUM, COUNT)
-- GROUP BY & HAVING
-- Subqueries
-- Sorting & Ranking
+--Tools Used
+MySQL
+MySQL Workbench
+CSV Dataset
+GitHub
+Dataset
 
-## 🎯 Key Insights
-- Identified high-value customers
-- Analyzed purchasing patterns
-- Detected inactive customers
+--The project uses 4 relational tables:
+Customers – customer details
+Orders – order transactions
+Products – product information
+Order_Details – quantity and product mapping
 
-## 🚀 Tools Used
-- MySQL
+--SQL Skills Demonstrated
+SELECT, WHERE, ORDER BY
+INNER JOIN, LEFT JOIN
+GROUP BY, HAVING
+Aggregate functions (SUM, COUNT, AVG)
+Subqueries
+
+--Analysis Performed
+Customer Analysis
+Top customers by total spending
+Customers with highest number of orders
+
+--Sales Analysis
+Total revenue generated
+Monthly sales trends
+Category-wise revenue
+
+--Product Analysis
+Best-selling products
+Least-performing products
