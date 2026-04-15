@@ -1,2 +1,34 @@
 # ecommerce-sql-analysis
 SQL project analyzing e-commerce sales data using MySQL
+# E-commerce Sales Analysis (SQL Project)
+
+## 📌 Overview
+This project demonstrates SQL skills by analyzing an e-commerce database using MySQL.
+
+## 🧩 Database Structure
+- Customers
+- Products
+- Orders
+- Order Details
+
+## 📊 Key Analysis Performed
+- Total revenue calculation
+- Top spending customers
+- Second highest spender
+- Product sales analysis
+- Customers with no orders
+
+## 🛠️ SQL Concepts Used
+- Joins (INNER, LEFT)
+- Aggregations (SUM, COUNT)
+- GROUP BY & HAVING
+- Subqueries
+- Sorting & Ranking
+
+## 🎯 Key Insights
+- Identified high-value customers
+- Analyzed purchasing patterns
+- Detected inactive customers
+
+## 🚀 Tools Used
+- MySQL
